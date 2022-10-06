@@ -1,4 +1,5 @@
-﻿using System;
+using System;
+using System.Linq;
 
 namespace Open_Lab_02._08
 {
@@ -6,7 +7,8 @@ namespace Open_Lab_02._08
     {
         public bool IsEmpty(string str)
         {
-            throw new NotImplementedException();
+            return str.Length == 0;
+
         }
     }
 }
